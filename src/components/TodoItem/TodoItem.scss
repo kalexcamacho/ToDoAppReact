@@ -1,0 +1,64 @@
+.item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: black;
+    height: auto;
+    padding: 10px 5px;
+    font-size: 20px;
+
+    .checkButton-non-completed {
+        border: none;
+        background-color: transparent;
+        padding: 0;
+
+        i{
+            font-size: 20px;
+            color: gray;
+        }
+
+        i:hover{
+            color:rgb(0, 161, 75);
+        }
+    }
+
+    .checkButton-completed {
+        border: none;
+        background-color: transparent;
+        padding: 0;
+
+        i {
+            color:rgb(0, 161, 75);
+            font-size: 20px;
+        }
+    }
+
+    .text-non-completed {
+        margin: 0;
+        padding: 0px 8px;
+    }
+
+    .text-completed {
+        margin: 0;
+        padding: 0px 8px;
+        text-decoration: line-through;
+        color: rgb(0, 161, 75)
+    }
+
+    .deleteButton {
+        border: none;
+        background-color: transparent;
+        padding: 0;
+
+        i{
+            font-size: 20px;
+        }
+
+        i:hover{
+            color:red;
+        }
+    }
+}
